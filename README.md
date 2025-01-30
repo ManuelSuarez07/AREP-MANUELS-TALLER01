@@ -16,17 +16,24 @@ This project implements a simple web server (`WebServerT1`) that serves static f
 
 ```
 ├── src/
-│   ├── com/eci/webservert1/
-│   │   ├── WebServerT1.java         # Web server implementation
-│   │   ├── CurrencyConverter.java   # Currency conversion logic
-│   │   ├── WebServerAndCurrencyConverterTest.java  # Unit tests
-│   ├── resources/
-│   │   ├── index.html               # Front-end interface
-│   │   ├── style.css                # Styling
-│   │   ├── script.js                # Front-end logic
-│   │   ├── fondo.jpg                # Background image
-├── README.md                        # Project documentation
-└── pom.xml                           # Maven configuration (if applicable)
+│   ├── main
+│   │   ├── java/com/eci/webservert1/
+│   │   │   ├── WebServerT1.java         # Web server implementation
+│   │   │   ├── CurrencyConverter.java   # Currency conversion logic
+│   │   ├── resources/
+│   │   │   ├── images
+│   │   │   │   ├── Initial.png             
+│   │   │   │   ├── Result.png              
+│   │   │   ├── static
+│   │   │   │   ├── index.html           # Front-end interface
+│   │   │   │   ├── style.css            # Styling
+│   │   │   │   ├── script.js            # Front-end logic
+│   │   │   │   ├── fondo.jpg            # Background image
+│   ├── test
+│   │   ├── java
+│   │   │   ├──WebServerAndCurrencyConverterTest.java  # Unit tests
+├── README.md                            # Project documentation
+└── pom.xml                              # Maven configuration (if applicable)
 ```
 
 ## Getting Started
@@ -77,11 +84,11 @@ This project implements a simple web server (`WebServerT1`) that serves static f
 
 #### This is the main page where users can convert currencies. To use the converter, simply enter the amount you want to convert, select the source and target currencies from the dropdown menus, and click the "Convert" button. The result will be displayed below, showing the converted amount.
 
-
+![image](src/main/resources/images/Initial.png)
 
 #### Example Response:
 
-![image](images/Initial.png)
+![image](src/main/resources/images/Result.png)
 
 
 ## Architecture
