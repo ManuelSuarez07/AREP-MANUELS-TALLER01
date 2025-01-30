@@ -23,7 +23,8 @@ This project implements a simple web server (`WebServerT1`) that serves static f
 │   │   ├── resources/
 │   │   │   ├── images
 │   │   │   │   ├── Initial.png             
-│   │   │   │   ├── Result.png              
+│   │   │   │   ├── Result.png
+│   │   │   │   ├── Test.png                           
 │   │   │   ├── static
 │   │   │   │   ├── index.html           # Front-end interface
 │   │   │   │   ├── style.css            # Styling
