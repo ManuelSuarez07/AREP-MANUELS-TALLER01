@@ -113,7 +113,7 @@ To execute unit tests, use JUnit:
 mvn test
 ```
 
-*(Include an image of test results here)*
+![image](src/main/resources/images/Test.png)
 
 ## Built With
 
