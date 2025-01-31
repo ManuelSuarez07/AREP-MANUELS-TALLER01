@@ -1,7 +1,5 @@
 # Currency Converter Web Server
 
-## Overview
-
 This project implements a simple web server (`WebServerT1`) that serves static files and provides an API for currency conversion using the `CurrencyConverter` class. It also includes a front-end web interface with an interactive currency converter.
 
 ## Features
@@ -36,26 +34,37 @@ This project implements a simple web server (`WebServerT1`) that serves static f
 ├── README.md                            # Project documentation
 └── pom.xml                              # Maven configuration (if applicable)
 ```
+## Architecture
 
-## Getting Started
+### Deployment Diagram
+
+![image](src/main/resources/images/Arquitectura.png)
+
+### Components
+
+- **HTML**: Serves as the front-end interface for user interaction.
+- **CSS**: Styles the web interface to ensure a clean and modern look.
+- **JavaScript**: Manages API calls and updates the UI dynamically.
+- **HTTP Server**: Handles requests for static files and API endpoints.
+
+## Setup and Installation
 
 ### Prerequisites
 
 1. **Java Development Kit (JDK)**
-
-   - Check if Java is installed:
-     ```sh
-     java -version
-     ```
-   - If not installed, download it from the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
-
-2. **Maven** (if using for dependency management)
-
-   - Check if Maven is installed:
-     ```sh
-     mvn --version
-     ```
-   - If not installed, download it from the [Apache Maven website](https://maven.apache.org/download.cgi).
+   * Ensure you have the following installed:
+      - Java Development Kit (JDK)
+        ```sh
+        java -version
+        ```
+      
+      - **Maven** (if using for dependency management)
+        ```sh
+        mvn --version
+        ```
+2. If not installed, download it from the:
+   - Oracle Website: [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+   - Apache Maven: [Apache Maven website](https://maven.apache.org/download.cgi).
 
 ### Installing and Running the Web Server
 
@@ -79,10 +88,9 @@ This project implements a simple web server (`WebServerT1`) that serves static f
    ```
    http://localhost:35000
    ```
-
+   
 ## Currency Converter
-
-
+### User Guide
 #### This is the main page where users can convert currencies. To use the converter, simply enter the amount you want to convert, select the source and target currencies from the dropdown menus, and click the "Convert" button. The result will be displayed below, showing the converted amount.
 
 ![image](src/main/resources/images/Initial.png)
@@ -90,20 +98,6 @@ This project implements a simple web server (`WebServerT1`) that serves static f
 #### Example Response:
 
 ![image](src/main/resources/images/Result.png)
-
-
-## Architecture
-
-### Deployment Diagram
-
-*(Include an image of your deployment diagram here)*
-
-### Components
-
-- **HTML**: Serves as the front-end interface for user interaction.
-- **CSS**: Styles the web interface to ensure a clean and modern look.
-- **JavaScript**: Manages API calls and updates the UI dynamically.
-- **HTTP Server**: Handles requests for static files and API endpoints.
 
 ## Running the Tests
 
@@ -123,9 +117,9 @@ mvn test
 
 ## Authors
 
-- Manuel S
+- Manuel Suarez
 
-## License
+## Version
 
-This project is licensed under the MIT License.
+Version 1.0
 
