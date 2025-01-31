@@ -117,7 +117,7 @@ mvn test
 
 ## Authors
 
-- Manuel Suarez
+- ManuelSuarez07
 
 ## Version
 
